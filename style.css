@@ -1,5 +1,5 @@
 * {
-    font-family: 'Montserrat' , sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,7 +17,7 @@ header {
     color: #989D9C;
     cursor: pointer;
     margin-right: 23px;
-    
+
 }
 
 .boton-log {
@@ -44,7 +44,7 @@ header {
 
 section {
     display: inline-block;
-    padding:  0px 170px ;
+    padding: 0px 170px;
 }
 
 h1 {
@@ -53,17 +53,17 @@ h1 {
     color: #515151;
     font-weight: 800;
     font-size: 100px;
- 
-    
+
+
 }
 
 h2 {
     color: #515151;
     font-weight: 400;
     font-size: 58px;
-    line-height: 70px ;
+    line-height: 70px;
     width: 513px;
-    height: 122px;   
+    height: 122px;
 }
 
 p {
@@ -92,8 +92,8 @@ p {
 }
 
 @media screen and (max-width: 1100px) {
-    header { 
-        margin: 20px 0px 80px 40px;     
+    header {
+        margin: 20px 0px 80px 40px;
     }
 
     .link-header {
@@ -114,7 +114,7 @@ p {
     }
 
     section {
-        padding:  0px 50px ;
+        padding: 0px 50px;
     }
 
     h1 {
@@ -129,7 +129,7 @@ p {
         font-size: 40px;
         width: 320px;
         height: 80px;
-    } 
+    }
 
     p {
         font-size: 24px;
@@ -143,12 +143,12 @@ p {
         font-size: 15px;
     }
 
-} 
+}
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
-    header { 
-        margin: 15px 0px 10px 10px;     
+    header {
+        margin: 15px 0px 10px 10px;
     }
 
     .link-header {
@@ -163,12 +163,12 @@ p {
     }
 
     section {
-        padding:  0px 15px ;
+        padding: 0px 15px;
     }
 
     .boton-log {
         width: 60px;
-      font-size: 12px;
+        font-size: 12px;
     }
 
     h1 {
@@ -194,35 +194,38 @@ p {
         font-size: 12px;
         line-height: normal;
     }
-}
 
-@media screen and (max-width: 600px){
+    @media screen and (max-width: 415px) {
 
-    header {
-       display: none;
-    }
-    .logo-imag {
-        margin: 25px 10px 0px 25px;
-        width: 250px;
-        height: 150px;
-    }
-
-    h1 {
-        text-align: center;
-    }
-    h2 {
-        text-align: center;
-    }
-    p {
-        text-align: justify;
-        font-size: 15px;
-        line-height: 20px;
-    }
-
-
-        
+        header {
+            display: none;
+        }
     
-}   
-
-
+        .logo-imag {
+            margin: 25px 10px 0px 25px;
+            width: 300px;
+            height: 180px;
+        }
+    
+        h1 {
+            text-align: center;
+        }
+    
+        h2 {
+            text-align: center;
+        }
+    
+        p {
+            text-align: justify;
+            font-size: 15px;
+            line-height: 20px;
+        }
+    
+        .boton-main {
+            margin: 0 auto;
+            display: block;
+    
+        }
+    }
+}
 
